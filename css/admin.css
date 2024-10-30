@@ -1,0 +1,173 @@
+/**
+ * 
+ * Стили модуля
+ * 
+ */
+
+/** Текстовый редактор кода **/
+textarea[name=snippet_code]{
+	width:100%;
+}
+
+#s_code{
+	width: 100%;
+	height: 500px;
+}
+
+.acs-donate-btn > img{
+	width: 200px;
+}
+
+/** Вывод информации в стилизованных блоках **/
+.aft_info{
+	border-left: 4px solid #3C7388;
+	background: none repeat scroll 0% 0% #FFF;
+	box-shadow: 0px 1px 1px 0px rgba(0, 0, 0, 0.1);
+	padding: 10px 12px;
+	margin: 5px;
+}
+
+.aft_attention:hover,
+.aft_info:hover{
+	border-left: 4px solid #18C5F9;
+}
+
+.aft_data_info{
+    background-color: #FFDB70;
+    padding: 10px 5px;
+    line-height: 1.5em;
+}
+
+.aft_data_info:hover{
+	background-color:#FFDBA0;
+}
+
+#test_res{
+	position: relative;
+	display: none;
+}
+
+#arg-info{
+	width: 100%;
+	font-family: monospace;
+	font-size: 14px;
+}
+
+#arg-info > pre{
+	font-family: monospace;
+    font-size: 12px;
+    background-color: #ddd;
+    padding: 2px 5px;
+}
+
+/* кнопка закрытия тестового вывода */
+.close-button{
+	font-family: monospace !important;
+	font-weight: bold;
+	font-size: 15px;
+	position: absolute;
+	right: 15px;
+	top: 5px;
+	display: block;
+	cursor: default;
+}
+
+.close-button:hover{
+	color: #2237FF;
+}
+
+.close-button:active{
+	color: #2259FF;
+}
+
+.wp-list-table .column-id { width: 20%; }
+/** Стили таблицы со списком доступных сниппетов **/
+table.snippets_table{
+	display: block;
+	width: 100%;
+	margin: 5px 3px;
+	border-collapse: collapse;
+	position: relative;
+	-webkit-box-shadow: 0px 0px 20px 2px rgba(114, 255, 201, 0.95);
+	-moz-box-shadow:    0px 0px 20px 2px rgba(114, 255, 201, 0.95);
+	box-shadow:         0px 0px 20px 2px rgba(114, 255, 201, 0.95);
+}
+
+table.snippets_table th{
+	background: #20A8E4;
+	border: 1px solid #CACACA;
+	text-align: center;
+	color: #fff;
+	text-shadow: 0px 0px 10px rgba(116, 176, 235, 0.85);
+}
+
+table.snippets_table td{
+	border: 1px solid #CACACA;
+	text-align: left;
+}
+
+table.snippets_table td.st_id{
+	width: 20%;
+	text-align: center;
+}
+
+table.snippets_table td.st_title{
+	width: 100%;
+	padding: 5px 20px;
+}
+
+table.snippets_table td.st_action{
+	width: 20%;
+	text-align: center;
+}
+
+table.snippets_table td.st_act_code{
+	width: 20%;
+	text-align: center;
+}
+
+
+/** Выпадающее окно плагина magnific-popup **/
+div.white_popup{
+	position: relative;
+	background: #FFF;
+	padding: 40px 10px 10px 10px;
+	width: auto;
+	max-width: 60%;
+	margin: 20px auto;
+}
+
+/** magnific popup анимация загрузки **/
+
+/* Content loading is in progress */
+.mfp-s-loading {
+	content: "";
+}
+
+/* Content successfully loaded */
+.mfp-s-ready { }
+
+/* Error during loading  */
+.mfp-s-error { }
+
+
+/** Иконка сниппета в кнопке "Сниппеты" над редактором материала **/
+
+.wp-media-aft-snippets{
+	background-image: url("../img/admin-icon.png");
+	display: inline-block;
+	width: 20px;
+	height: 20px;
+	vertical-align: text-top;
+	margin: 0 2px;
+}
+
+#acs-table-main.form-table tr > th{
+	width: 120px;
+}
+
+.cse-editor{
+	width: 100%;
+}
+
+/* end of file */
